@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: @active.profile@
+
+logging:
+  config:
+    classpath: logback-spring.xml
+
+---
+spring:
+  profiles: TEST
+
+  api:
+    base: http://dummy.restapiexample.com/api/v1/
+
+---
+spring:
+  profiles: DEV
