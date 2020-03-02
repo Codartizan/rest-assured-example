@@ -1,6 +1,6 @@
 Execution cmd:
 
-`mvn clean test -Dactive.profile=DEV -Dparallel=method`
+`mvn clean test -Dactive.profile=DEV -Dparallel=methods`
 
 Generate report:
 
